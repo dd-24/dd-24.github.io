@@ -3,7 +3,7 @@
 	<html lang="en">
 
 	<head>
-    <title>testlab 1.0.4</title>
+    <title>testlab 1.0.5</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
@@ -19,12 +19,12 @@
 
     <script>        
         function start_test_func() {
-            document.getElementById("ID2").text = "TEST";
+            document.getElementById("ID2").textContent = "TEST";
             document.getElementById("ID1").disabled = true;
 
         }
         function reset_test_func() {
-            document.getElementById("ID2").text = "RESET";
+            document.getElementById("ID2").textContent = "RESET";
             document.getElementById("ID1").disabled = false;
         }
         document.getElementById("ID1").onclick = start_test_func;
